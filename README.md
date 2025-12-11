@@ -1,20 +1,77 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🖥️ Personal Portfolio — Windows 10 Simulator
 
-# Run and deploy your AI Studio app
+A unique, interactive portfolio built with **Vite**, **React**, and **TypeScript**.
+This project simulates a **Windows 10–like desktop environment**, where visitors can explore different drives, folders, and even use a built-in terminal to learn more about me.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## 🚀 Features
 
-## Run Locally
+* **Windows 10 UI Simulation** — Desktop, taskbar, icons, and windowed apps.
+* **Interactive File Explorer** — Navigate through drives and folders to discover sections like About, Projects, Skills, etc.
+* **Custom Terminal** — Execute predefined commands to reveal information about me.
+* **Fast & Modern Stack** — Powered by Vite + React + TypeScript for optimal performance.
 
-**Prerequisites:**  Node.js
+---
+
+## 📁 Tech Stack
+
+* **Frontend:** React, TypeScript
+* **Build Tool:** Vite
+* **Styling:** (add your CSS/Framework info if needed)
+* **State Management:** (optional—add if you used Zustand, Redux, Jotai, etc.)
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone <repo-url>
+cd <project-folder>
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start development server
+
+```bash
+npm run dev
+```
+
+### 4. Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 📂 Project Overview
+
+| Component         | Description                                           |
+| ----------------- | ----------------------------------------------------- |
+| **Desktop**       | Shows icons and shortcuts similar to Windows 10       |
+| **File Explorer** | Browse to different folders to see portfolio sections |
+| **Terminal**      | Type commands to get information about me             |
+| **Apps/Windows**  | Each section opens as a draggable, resizable window   |
+
+---
+
+## 🎨 Screenshots
+
+*(Add screenshots or GIFs here when ready)*
+
+---
+
+## 📬 Contact
+
+If you’d like to connect, collaborate, or share feedback — feel free to reach out!
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
