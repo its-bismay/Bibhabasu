@@ -115,56 +115,63 @@ Certifications:
         children: [
           {
             id: 'proj-1',
-            name: 'E-Commerce Platform',
+            name: 'QueryDF',
             type: FileType.FOLDER,
             children: [
               {
                 id: 'p1-readme',
                 name: 'README.txt',
                 type: FileType.TEXT,
-                content: `PROJECT: NEXTGEN COMMERCE
-
-A full-stack e-commerce solution built with Next.js and Stripe.
-Features include:
-- Real-time inventory management
-- Secure payment processing
-- Admin dashboard`
+                content: `=>Engineered an intelligent RAG (Retrieval-Augmented Generation) system with automated PDF processing pipeline
+using Inngest background jobs, extracting and chunking text with LangChain splitters for semantic analysis.
+=> Architected vector search infrastructure using Jina API embeddings and Qdrant vector database for semantic
+retrieval, integrated with Google Gemini API for context-aware question answering with Cloudinary for document
+storage.
+=> Techstack used: JavaScript, Node.js, Express.js, React, Qdrant, Gemini API, Inngest, Cloudinary, Tailwind CSS`
               },
               {
                 id: 'p1-live',
                 name: 'Live Demo',
                 type: FileType.LINK,
-                url: 'https://example.com',
+                url: 'https://query-df-server.vercel.app/',
                 icon: <Globe className="w-8 h-8 text-blue-400" />
               },
               {
                 id: 'p1-repo',
                 name: 'GitHub Repo',
                 type: FileType.LINK,
-                url: 'https://github.com',
+                url: 'https://github.com/its-bismay/QueryDF',
                 icon: <Github className="w-8 h-8 text-gray-800" />
               }
             ]
           },
           {
             id: 'proj-2',
-            name: 'AI Task Manager',
+            name: 'DevDrill',
             type: FileType.FOLDER,
             children: [
               {
                 id: 'p2-readme',
                 name: 'README.txt',
                 type: FileType.TEXT,
-                content: `PROJECT: SMART TASKS AI
-
-An intelligent todo list that prioritizes your day using NLP.
-Tech: React, Python (FastAPI), OpenAI API.`
+                content: `=> Built a full-stack web application enabling developers to practice DSA problems with real-time collaboration through
+video calling and chat functionality, supporting paired programming sessions between host and participant.
+=> Implemented secure user authentication with Clerk, real-time video communication via Stream API, and live code
+execution using Piston API, with MongoDB for data persistence.
+=> Techstack used: JavaScript, React, Node.js, Express.js, MongoDB, Tailwind CSS, DaisyUI`
+              },
+                            {
+                id: 'p1-live',
+                name: 'Live Demo',
+                type: FileType.LINK,
+                url: 'https://dev-drill-com.vercel.app/',
+                icon: <Globe className="w-8 h-8 text-blue-400" />
               },
               {
                 id: 'p2-repo',
                 name: 'Source Code',
                 type: FileType.LINK,
-                url: 'https://github.com',
+                url: 'https://github.com/its-bismay/DevDrill.com',
                 icon: <Github className="w-8 h-8 text-gray-800" />
               }
             ]
